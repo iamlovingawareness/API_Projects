@@ -11,26 +11,25 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>Chuck Norresh</title>
+    <title>Document</title>
   </head>
   <body>
     <div class="container">
-      <h1>Welcome to Chuck norris Joke Generator</h1>
+      <h4>Welcome to Chuck Norris</h4>
       <form>
         <div>
-          <label for="number">Number of Jokes</label>
-          <input type="number" id="number" />
+          <label for="input">Number of Jokes</label>
+          <input type="number" name="input" id="input" />
         </div>
-
         <div>
-          <button class="get-jokes">Get Jokes</button>
+          <button class="get-jokes">Retrieve Jokes</button>
         </div>
       </form>
 
       <div class="output">
         <h1>Jokes Generated</h1>
         <hr />
-        <ul class="results"></ul>
+        <ul id="results"></ul>
       </div>
     </div>
     <script src="app.js"></script>
